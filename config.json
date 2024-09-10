@@ -1,0 +1,33 @@
+{
+    "telegram": {
+        "API": {
+            "api_id": "",
+            "api_hash": "",
+            "phone": ""
+        },
+        "message": {
+            "interval_min": 5,
+            "interval_max": 10,
+            "interval_min_typing": 5,
+            "interval_max_typing": 10,
+	    "voice": {
+                "vocal1": "/media/voices/voice1.mp3",
+                "vocal2": "/media/voices/voice2.mp3"
+            },
+            "image": {
+                "path1": "/media/images/photo1.jpg",
+                "path2": "/media/images/photo2.jpg"
+            },
+            "link": ""
+        }
+    },
+    "db": {
+        "uri": "mongodb://localhost:27017/",
+        "name": "chatbot-gpt-telegram"
+    },
+    "chatgpt": {
+        "api_key": "",
+        "prompt": "./prompt.txt"
+    },
+    "channel_id": [6817164949]
+}
